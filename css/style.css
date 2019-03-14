@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -5,6 +10,7 @@ nav{
 }
 body{
   background: url('https://github.com/Riaht2/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+  font-family: "Museo", sans-serif;
 }
 #leftnav{
   display: flex;
